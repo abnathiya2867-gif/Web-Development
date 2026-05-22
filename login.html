@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+
+        <span class="heart">❤</span>
+        <span class="heart">❤</span>
+        <span class="heart">❤</span>
+        <span class="heart">❤</span>
+    </div>
+
+    <div class="login-box">
+
+        <h2>Login</h2>
+
+        <form>
+
+            <!-- Added IDs -->
+            <input type="text" id="username" placeholder="Enter Username" required>
+
+            <input type="password" id="password" placeholder="Enter Password" required>
+
+            <!-- Added onclick -->
+            <button type="button" onclick="loginUser()">Login</button>
+
+            <button type="reset">Clear</button>
+
+            <div class="signup-link">
+                <p>
+                    Don't have an account?
+                    <a href="register.html">Sign Up</a>
+                </p>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
